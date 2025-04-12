@@ -18,7 +18,6 @@ for line in logs:
             else:
                 failed_attempts[username] += 1
 
-# نطبع المستخدمين اللي عندهم أكثر من 3 محاولات فاشلة
 
 for user, count in failed_attempts.items():
     if count >= 3:
